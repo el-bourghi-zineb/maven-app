@@ -1,8 +1,8 @@
 pipeline {
 agent any
         tools{
-        maven 'MAVEN 3'
-        jdk 'jdk1.8.0_231'
+        maven 'M2_HOME'
+        jdk 'JAVA_HOME'
         }
         stages{
                stage('build'){
